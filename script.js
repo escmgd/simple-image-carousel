@@ -3,8 +3,6 @@ const btnRight = document.querySelector('.btn-right');
 const allImages = document.querySelectorAll('.image');
 const lastIndex = allImages.length - 1;
 
-console.log(btnLeft, btnRight, allImages, lastIndex);
-
 btnRight.addEventListener('click', function () {
   const current = document.querySelector('.current');
   if (current) {
